@@ -1,0 +1,28 @@
+@media screen and (max-width:370px) {
+    body {background: var(--color-purple-50);
+      
+    }
+    * {height: 100%}
+    #container {
+        background: transparent;
+        height: 100%;
+    }
+    #login-form {    
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    #form-header > h1 {
+        display: none;
+    }
+    #form-header{
+        justify-content: center;
+    }
+
+    #social-media img {
+        width: 45px;
+    }
+    #inputs i {
+        display: none;
+    }
+}
